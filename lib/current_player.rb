@@ -1,3 +1,5 @@
+require_relative "../lib/current_player.rb"
+
 def turn_count(board)
   counter = 0
   board.each do |position|
