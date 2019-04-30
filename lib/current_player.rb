@@ -8,6 +8,7 @@ def turn_count(board)
     elsif (position == "O")
       counter += 1 
     end
+    return counter
   end
 
   def current_player(board)
